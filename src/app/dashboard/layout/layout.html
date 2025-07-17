@@ -1,0 +1,15 @@
+<div class="d-flex flex-column vh-100">
+  <!-- Navbar -->
+  <app-navbar class="border-bottom"></app-navbar>
+
+  <!-- Main Content -->
+  <div class="d-flex flex-row flex-grow-1 mt-5">
+    <!-- Sidebar -->
+    <app-sidebar class="border-end flex-shrink-0 w-25"></app-sidebar>
+    
+    <!-- Main Content Area -->
+    <div class="flex-grow-1 p-3">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
